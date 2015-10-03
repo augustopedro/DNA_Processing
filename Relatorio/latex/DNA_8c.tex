@@ -1,0 +1,61 @@
+\hypertarget{DNA_8c}{\section{Referência do Arquivo D\-N\-A.\-c}
+\label{DNA_8c}\index{D\-N\-A.\-c@{D\-N\-A.\-c}}
+}
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}D\-N\-A.\-h\char`\"{}}\\*
+\subsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{DNA_8c_a278234c27331ded94e4aaa5a2b82c493}{kmp} (char $\ast$target, int tsize, char $\ast$pattern, int psize)
+\begin{DoxyCompactList}\small\item\em Algorimo de Knuth-\/\-Morris-\/\-Pratt. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{DNA_8c_a4a6b1cec8565732cdbf9387210a57934}{compute\-\_\-prefix\-\_\-function} (char $\ast$pattern, int psize)
+\begin{DoxyCompactList}\small\item\em Função de cálculo do prefixo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Funções}
+\hypertarget{DNA_8c_a4a6b1cec8565732cdbf9387210a57934}{\index{D\-N\-A.\-c@{D\-N\-A.\-c}!compute\-\_\-prefix\-\_\-function@{compute\-\_\-prefix\-\_\-function}}
+\index{compute\-\_\-prefix\-\_\-function@{compute\-\_\-prefix\-\_\-function}!DNA.c@{D\-N\-A.\-c}}
+\subsubsection[{compute\-\_\-prefix\-\_\-function}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ compute\-\_\-prefix\-\_\-function (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{pattern, }
+\item[{int}]{psize}
+\end{DoxyParamCaption}
+)}}\label{DNA_8c_a4a6b1cec8565732cdbf9387210a57934}
+
+
+Função de cálculo do prefixo. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em $\ast$pattern} & Padrão a ser procurado \\
+\hline
+{\em psize} & Tamanho do padrão a ser procurado \\
+\hline
+\end{DoxyParams}
+\hypertarget{DNA_8c_a278234c27331ded94e4aaa5a2b82c493}{\index{D\-N\-A.\-c@{D\-N\-A.\-c}!kmp@{kmp}}
+\index{kmp@{kmp}!DNA.c@{D\-N\-A.\-c}}
+\subsubsection[{kmp}]{\setlength{\rightskip}{0pt plus 5cm}int kmp (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{target, }
+\item[{int}]{tsize, }
+\item[{char $\ast$}]{pattern, }
+\item[{int}]{psize}
+\end{DoxyParamCaption}
+)}}\label{DNA_8c_a278234c27331ded94e4aaa5a2b82c493}
+
+
+Algorimo de Knuth-\/\-Morris-\/\-Pratt. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em $\ast$target} & Sequência a ser processada \\
+\hline
+{\em tsize} & Tamanho da sequência a ser processada \\
+\hline
+{\em $\ast$pattern} & Padrão a ser encontrado \\
+\hline
+{\em psize} & Tamanho do padrão a ser encontrado \\
+\hline
+\end{DoxyParams}

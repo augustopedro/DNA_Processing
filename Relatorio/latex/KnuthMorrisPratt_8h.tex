@@ -1,0 +1,65 @@
+\hypertarget{KnuthMorrisPratt_8h}{\section{Referência do Arquivo Knuth\-Morris\-Pratt.\-h}
+\label{KnuthMorrisPratt_8h}\index{Knuth\-Morris\-Pratt.\-h@{Knuth\-Morris\-Pratt.\-h}}
+}
+
+
+Cabeçalho para as funções do código-\/fonte \hyperlink{KnuthMorrisPratt_8c}{Knuth\-Morris\-Pratt.\-c}.  
+
+
+\subsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{KnuthMorrisPratt_8h_a4a6b1cec8565732cdbf9387210a57934}{compute\-\_\-prefix\-\_\-function} (char $\ast$pattern, int psize)
+\begin{DoxyCompactList}\small\item\em Função de cálculo do prefixo. \end{DoxyCompactList}\item 
+int \hyperlink{KnuthMorrisPratt_8h_a99d925769a60c276005f12032b05c684}{Knuth\-Morris\-Pratt} (char $\ast$target, int tsize, char $\ast$pattern, int psize)
+\begin{DoxyCompactList}\small\item\em Algorimo de Knuth-\/\-Morris-\/\-Pratt. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Cabeçalho para as funções do código-\/fonte \hyperlink{KnuthMorrisPratt_8c}{Knuth\-Morris\-Pratt.\-c}. 
+
+\subsection{Funções}
+\hypertarget{KnuthMorrisPratt_8h_a4a6b1cec8565732cdbf9387210a57934}{\index{Knuth\-Morris\-Pratt.\-h@{Knuth\-Morris\-Pratt.\-h}!compute\-\_\-prefix\-\_\-function@{compute\-\_\-prefix\-\_\-function}}
+\index{compute\-\_\-prefix\-\_\-function@{compute\-\_\-prefix\-\_\-function}!KnuthMorrisPratt.h@{Knuth\-Morris\-Pratt.\-h}}
+\subsubsection[{compute\-\_\-prefix\-\_\-function}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ compute\-\_\-prefix\-\_\-function (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{pattern, }
+\item[{int}]{psize}
+\end{DoxyParamCaption}
+)}}\label{KnuthMorrisPratt_8h_a4a6b1cec8565732cdbf9387210a57934}
+
+
+Função de cálculo do prefixo. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em $\ast$pattern} & Padrão a ser procurado \\
+\hline
+{\em psize} & Tamanho do padrão a ser procurado \\
+\hline
+\end{DoxyParams}
+\hypertarget{KnuthMorrisPratt_8h_a99d925769a60c276005f12032b05c684}{\index{Knuth\-Morris\-Pratt.\-h@{Knuth\-Morris\-Pratt.\-h}!Knuth\-Morris\-Pratt@{Knuth\-Morris\-Pratt}}
+\index{Knuth\-Morris\-Pratt@{Knuth\-Morris\-Pratt}!KnuthMorrisPratt.h@{Knuth\-Morris\-Pratt.\-h}}
+\subsubsection[{Knuth\-Morris\-Pratt}]{\setlength{\rightskip}{0pt plus 5cm}int Knuth\-Morris\-Pratt (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{target, }
+\item[{int}]{tsize, }
+\item[{char $\ast$}]{pattern, }
+\item[{int}]{psize}
+\end{DoxyParamCaption}
+)}}\label{KnuthMorrisPratt_8h_a99d925769a60c276005f12032b05c684}
+
+
+Algorimo de Knuth-\/\-Morris-\/\-Pratt. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em $\ast$target} & Sequência a ser processada \\
+\hline
+{\em tsize} & Tamanho da sequência a ser processada \\
+\hline
+{\em $\ast$pattern} & Padrão a ser encontrado \\
+\hline
+{\em psize} & Tamanho do padrão a ser encontrado \\
+\hline
+\end{DoxyParams}
